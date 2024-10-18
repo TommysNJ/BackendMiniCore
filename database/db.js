@@ -8,8 +8,7 @@ import { Sequelize } from "sequelize";
 const db = new Sequelize('railway', 'root', 'qrdklQzGVwnqovUjArYkCfjUgZJYWqxn', {
     host: 'autorack.proxy.rlwy.net',
     dialect: 'mysql',
-    port: 44190, // Añade el puerto de la conexión
-    dialectModule: require('mysql2'),
+    port: 44190 // Añade el puerto de la conexión
 });
 
 export default db;
