@@ -1,5 +1,7 @@
 **MINICORE**
+
 ***Descripción del proyecto:***
+
 MiniCore es una aplicación que permite la gestión de empleados, proyectos 
 y tareas de manera eficiente. Está diseñada para simplificar la creación, 
 edición, eliminación y seguimiento de estos elementos, asegurando un control 
@@ -11,6 +13,7 @@ proyecto está dividido en dos partes:
   con el backend desplegado en Render.
 
 ***Tabla de contenidos***
+
 - Instalación
 - Uso del Proyecto
 - Despliegue
@@ -20,6 +23,7 @@ proyecto está dividido en dos partes:
 - Licencia
   
 ***Instalación***
+
 Backend:
 1. Clonar el repositorio del backend:
    git clone https://github.com/TommysNJ/BackendMiniCore.git
@@ -41,6 +45,7 @@ Frontend:
 4. El frontend estará corriendo en http://localhost:3000.
 
 ***Uso del Proyecto***
+
 El backend gestiona las siguientes entidades:
 - Empleados: Crear, editar, eliminar y listar empleados.
 - Proyectos: Crear, editar, eliminar y listar proyectos.
@@ -53,6 +58,7 @@ Funcionalidades del Frontend:
 - Generar reportes de tareas atrasadas.
 
 ***Despliegue***
+
 Backend en Render
 - El backend ha sido desplegado en Render. Puedes acceder a la API en la 
 siguiente URL: https://backend-mini-core.onrender.com
@@ -62,28 +68,30 @@ Frontend en Netlify
   https://elaborate-lokum-24e27c.netlify.app/
 
 ***Endpoints del Backend***
+
 Empleados
-	•	GET /api/empleados: Lista todos los empleados.
-	•	GET /api/empleados/:id: Obtiene un empleado por ID.
-	•	POST /api/empleados: Crea un nuevo empleado.
-	•	PUT /api/empleados/:id: Actualiza un empleado existente.
-	•	DELETE /api/empleados/:id: Elimina un empleado.
+- GET /api/empleados: Lista todos los empleados.
+- GET /api/empleados/:id: Obtiene un empleado por ID.
+- POST /api/empleados: Crea un nuevo empleado.
+- PUT /api/empleados/:id: Actualiza un empleado existente.
+- DELETE /api/empleados/:id: Elimina un empleado.
 
 Proyectos
-	•	GET /api/proyectos: Lista todos los proyectos.
-	•	GET /api/proyectos/:id: Obtiene un proyecto por ID.
-	•	POST /api/proyectos: Crea un nuevo proyecto.
-	•	PUT /api/proyectos/:id: Actualiza un proyecto existente.
-	•	DELETE /api/proyectos/:id: Elimina un proyecto.
+- GET /api/proyectos: Lista todos los proyectos.
+- GET /api/proyectos/:id: Obtiene un proyecto por ID.
+- POST /api/proyectos: Crea un nuevo proyecto.
+- PUT /api/proyectos/:id: Actualiza un proyecto existente.
+- DELETE /api/proyectos/:id: Elimina un proyecto.
 
 Tareas
-	•	GET /api/tareas: Lista todas las tareas.
-	•	GET /api/tareas/:id: Obtiene una tarea por ID.
-	•	POST /api/tareas: Crea una nueva tarea.
-	•	PUT /api/tareas/:id: Actualiza una tarea existente.
-	•	DELETE /api/tareas/:id: Elimina una tarea.
+- GET /api/tareas: Lista todas las tareas.
+- GET /api/tareas/:id: Obtiene una tarea por ID.
+- POST /api/tareas: Crea una nueva tarea.
+- PUT /api/tareas/:id: Actualiza una tarea existente.
+- DELETE /api/tareas/:id: Elimina una tarea.
 
 ***Características***
+
 - CRUD Completo: Permite crear, editar, visualizar y eliminar empleados,
   proyectos y tareas.
 - Reportes: Genera reportes sobre el estado de las tareas y los empleados
@@ -93,18 +101,20 @@ Tareas
 - Despliegue Profesional: Backend desplegado en Render y frontend en Netlify.
 
 ***Tecnologías Utilizadas***
+
 Backend
-	•	Node.js
-	•	Express
-	•	Sequelize
-	•	MySQL
-	•	Render (para despliegue)
+- Node.js
+- Express
+- Sequelize
+- MySQL
+- Render (para despliegue)
 
 Frontend
-	•	React.js
-	•	Netlify (para despliegue)
+- React.js
+- Netlify (para despliegue)
 
 ***Licencia***
+
 Este proyecto está licenciado bajo la Licencia MIT.
 
  
